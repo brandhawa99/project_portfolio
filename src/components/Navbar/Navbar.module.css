@@ -2,18 +2,18 @@
   display: flex;
   align-items: center;
   padding: 0 20px;
-  background-color: var(--accent);
+  background-color: var(--background-secondary);
 }
 .name{
   flex: 1;
   display: flex;
   gap: 5px;
   justify-content: center;
+  color: white;
+  text-shadow:3px 3px  var(--text-primary),
+  -3px -3px var(--text-primary)
+  ;
   
-}
-.name > span{
-  color: var(--background-secondary)
-
 }
 
 button{

@@ -8,8 +8,7 @@ function App() {
   return (
     <div className='WholeContainer'>
       <div className='App'>
-        <Navbar /> 
-        <Homepage />
+        restarting
       </div>
     </div>
   );

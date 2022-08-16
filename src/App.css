@@ -1,0 +1,12 @@
+.WholeContainer{
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary);
+}
+.App{
+  max-width: 1600px;
+  flex: 1;
+
+}
+.underNav{
+}

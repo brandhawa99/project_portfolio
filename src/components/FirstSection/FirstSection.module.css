@@ -1,0 +1,93 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--secondary);
+  padding: 0 20px;
+}
+
+.textContainer{
+  border-radius: .25rem;
+  line-height: 26px;
+  padding: 20px 20px;
+  display: flex;
+  box-shadow: -10px 10px black;
+  font-size: clamp(1rem, calc( 9px + 1.1vw ), 1.8rem);
+  background-color: var(--accent);
+
+}
+.text{
+  display: inline-block;
+  font-weight: 700;
+  animation: 2s displayZero ease-in-out;
+  animation: 1s introText 2s ease-in-out;
+  background-color: black;
+  color: var(--accent);
+  padding: 2px 7px;
+}
+.butText{
+  align-items: center;
+}
+.centeredText{
+  text-align: center;
+}
+
+.checkOut{
+  border-radius: .25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  text-decoration: none;
+  background-color: var(--primary);
+  color: white;
+  font-weight: 800;
+  padding: 10px 7px;
+  box-shadow: -5px 5px var(--accent);
+  animation: 1s hover 2s  infinite  alternate-reverse  ;
+}
+.arrow{
+  flex: -1;
+  padding: 0 0;
+
+}
+
+@keyframes hover {
+  from {
+    transform: translateX(5px);
+  }
+  to{
+    transform: translateX(-5px,);
+    
+  }
+  
+}
+
+@keyframes introText {
+  from{
+    transform: translateY(-100px)
+    
+  }
+  85%{
+    transform: translateY(20px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+  
+}
+@keyframes displayZero {
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+  }
+  
+}
+
+

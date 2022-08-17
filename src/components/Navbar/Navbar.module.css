@@ -20,6 +20,8 @@
   cursor: pointer;
   font-weight: 700;
   transition: transform .6s ease-in-out;
+  text-decoration: none;
+  text-shadow: none;
 }
 button:hover{
   transform: scale(1.1);

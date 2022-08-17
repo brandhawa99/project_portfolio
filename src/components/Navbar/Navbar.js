@@ -8,9 +8,9 @@ const Navbar = () =>{
     <div className={styles.mainContainer}>
       <h1>Baltej Randhawa</h1>
       <div className={styles.buttonContainer}>
-        <button className={styles.navButton}>About</button>
-        <button className={styles.navButton}>Portfolio</button>
-        <button className={styles.navButton}>Contact</button>
+        <a href="#about" className={styles.navButton}>About</a>
+        <a href="#about" className={styles.navButton}>Portfolio</a>
+        <a href="#about" className={styles.navButton}>Contact</a>
       </div>
       <div className={styles.menuIcon}>
         <MenuIcon width={24} />

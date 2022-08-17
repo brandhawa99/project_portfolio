@@ -8,19 +8,18 @@
   background-color: var(--Primary);
   padding-bottom: 30px;
   text-align: center;
-  min-height: 70vh;
 }
 
 .text{
-  color: var(--accent);
+   color: var(--accent);
   line-height: 32px;
   border: 3px var(--accent) solid;
   background-color: var(--primary);
   text-shadow: -2px 2px black;
-  padding: 10px 20px;
+  padding: 30px 20px;
   text-align: left;
   font-weight: bold;
   border-radius: .5rem;
   box-shadow: -10px 10px var(--accent) ;
-  font-size: 1.4rem;
+  font-size: clamp(.8rem, calc(0.8rem + 0.98vw), 1.5rem);
 }

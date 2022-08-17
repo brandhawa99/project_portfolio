@@ -1,18 +1,26 @@
 .mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--secondary);
+  padding: 0 20px;
+  background-color: var(--Primary);
+  padding-bottom: 30px;
+  text-align: center;
+  min-height: 70vh;
 }
 
-.backgroundText{
-
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 5rem;
-  text-shadow: 
-  -1px 0px 1px #ccc, -0px 1px 1px #eee, 
-  -2px 1px 1px #ccc, -1px 2px 1px #eee,
-  -3px 2px 1px #ccc, -2px 3px 1px #eee,
-  -4px 3px 1px #ccc, -3px 4px 1px #eee,
-  -5px 4px 1px #ccc, -4px 5px 1px #eee,
-  -6px 5px 1px #ccc, -5px 6px 1px #eee,
-  -7px 6px 1px #ccc;
+.text{
+  color: var(--accent);
+  line-height: 32px;
+  border: 3px var(--accent) solid;
+  background-color: var(--primary);
+  text-shadow: -2px 2px black;
+  padding: 10px 20px;
+  text-align: left;
+  font-weight: bold;
+  border-radius: .5rem;
+  box-shadow: -10px 10px var(--accent) ;
+  font-size: 1.4rem;
 }

@@ -1,17 +1,20 @@
 .mainContainer{
   display: flex;
+  gap:30px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  padding: 0px 30px;
   color: var(--secondary);
-  padding: 0 20px;
-  background-color: var(--Primary);
-  padding-bottom: 30px;
-  text-align: center;
+  min-height: 100vh;
+  padding-top: 50px;
+  margin: 20px 0;
+
 }
 
 .text{
-   color: var(--accent);
+  color: var(--accent);
   line-height: 32px;
   border: 3px var(--accent) solid;
   background-color: var(--primary);
@@ -21,5 +24,16 @@
   font-weight: bold;
   border-radius: .5rem;
   box-shadow: -10px 10px var(--accent) ;
-  font-size: clamp(.8rem, calc(0.8rem + 0.98vw), 1.5rem);
+  font-size: clamp(.7rem, calc(0.8rem + 0.98vw), 1.5rem);
+  max-width: 800px;
+}
+
+@media (max-width:500px){
+  .text{
+    padding: 0 10px ;
+    text-overflow: wrap;
+  }
+  .mainContainer{
+    padding: 20 0px;
+  }
 }

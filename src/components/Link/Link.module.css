@@ -1,0 +1,13 @@
+.mainContainer{
+  display: flex;
+  border: 1px black solid; 
+  padding: 7px 10px;
+  text-decoration: none;
+  color: black;
+  background-color: var(--secondary);
+  transition: transform .4s;
+}
+.mainContainer:hover{
+  transform: rotate(-10deg);
+
+}

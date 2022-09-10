@@ -1,14 +1,22 @@
 .mainContainer{
   display: flex;
-  padding: 0 20px;
-  background-color: var(--primary);
-  color: white;
-  text-shadow: -3px 3px black;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--primary);
+  color: white;
+  padding: 15px 10px;
+  text-shadow: -3px 3px black;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+  width: 100%;
+}
+.text{
+  font-size: 2rem;
 }
 .buttonContainer{
   display: flex;
+  justify-content: flex-end;
   gap: 12px;
 }
 .navButton{
@@ -19,15 +27,19 @@
   border-radius: .25rem;
   cursor: pointer;
   font-weight: 700;
-  transition: transform .6s ease-in-out;
+  transition: transform .25s ease-in;
   text-decoration: none;
   text-shadow: none;
 }
-button:hover{
+.navButton:hover{
   transform: scale(1.1);
 }
 .menuIcon{
   display: none;
+}
+.none{
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 600px) {

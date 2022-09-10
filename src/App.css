@@ -1,12 +1,12 @@
 .WholeContainer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: var(--primary);
+  width: 100%;
 }
 .App{
   max-width: 1600px;
   flex: 1;
-
-}
-.underNav{
 }

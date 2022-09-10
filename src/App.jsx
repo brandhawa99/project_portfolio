@@ -11,13 +11,9 @@ function App() {
     <div className='WholeContainer'>
       <div className='App'>
         <Navbar />
-        <div className='underNav'>
         <FirstSection />
-        <div className='mainContent'>
-          <About />
-          <Portfolio />
-        </div>
-        </div>
+        <About />
+        <Portfolio />
       </div>
     </div>
   );

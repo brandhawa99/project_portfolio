@@ -14,7 +14,7 @@ const Project = (props) => {
         </div>
         <p>{blog}</p>
         <hr className={styles.break}></hr>
-        <p>{tools}</p>
+        <p className={styles.tools}>{tools}</p>
         <div className={styles.links}>
           <Link link={github} text="Repository" />
           <Link link={link} text="Live App" />

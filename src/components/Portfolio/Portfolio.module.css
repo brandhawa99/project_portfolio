@@ -6,6 +6,8 @@
   padding: 0px 20px;
   color: var(--primary);
   min-height: 100vh;
+  padding-top: 50px;
+  gap:20px;
 }
 .skillsContainer{
   border: 5px solid var(--primary);
@@ -24,11 +26,31 @@
   display: flex;
   align-items: center;
   gap: 7px;
-  padding: 0px 10px ;
+  padding: 5px 22px ;
   flex-wrap: wrap;
 }
 .iconText{
   font-size: 18px;
 }
 .tooltip {
+}
+.sectionContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.skillsHeader{
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+}
+.projectContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  
 }

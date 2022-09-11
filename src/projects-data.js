@@ -32,7 +32,7 @@ const projects = [
   {
     id: 4,
     title: "Blog CMS",
-    blog: "This react app connects to the 'Blog API' and gets users to log in and manage their content. It stores JWT during authentication and passes it around in the authorization header when making requests. Login with username: bawa, password: password123",
+    blog: "This react app connects to the 'Blog API' and gets users to log in and manage their content. It stores JWT during authentication and passes it around in the authorization header when making requests. **Login with username: bawa, password: password123**",
     tools: "Built with reactjs, javascript, css, ",
     imgLink:
       "https://user-images.githubusercontent.com/35308786/188833160-235e8ab1-5df6-41c8-8654-b9b048fe768b.png",

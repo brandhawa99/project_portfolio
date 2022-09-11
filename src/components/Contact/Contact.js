@@ -11,9 +11,9 @@ const Contact = () => {
       <HeaderText text="Contact Me" />
       <p>
         Again, my name is Baltej Randhawa. Feel free to contact me as I am
-        currently looking for work. I am a passionate fullstack developer, I
-        love both front-end and back-end. Feel free to email me and checkout my
-        github to look at some of my other work. Thanks for stopping by!
+        currently looking for work. I am a passionate full-stack developer. I
+        love both front-end and back-end. Feel free to email me and check out my
+        GitHub to look at some of my other work. Thanks for stopping by!
       </p>
       <div className={styles.iconsContainer}>
         <a className={styles.icon} href="mailto: baltej.randhawa0@gmail.com">

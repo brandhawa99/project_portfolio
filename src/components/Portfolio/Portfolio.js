@@ -22,7 +22,7 @@ const Portfolio = () => {
     <div id="portfolio" className={styles.mainContainer}>
       <HeaderText text="Portfolio" />
       <div className={styles.sectionContainer}>
-        <h1>Skills</h1>
+        <h1 className={styles.sectionHeader}>Skills</h1>
         <div className={styles.skillsContainer}>
           <div>
             <h3 className={styles.skillsHeader}>Front-End</h3>
@@ -63,7 +63,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <h1>Projects</h1>
+      <h1 className={styles.sectionHeader}>Projects</h1>
       <div className={styles.projectContainer}>
         {projects.map((project) => {
           let { id, title, blog, tools, link, github, imgLink } = project;

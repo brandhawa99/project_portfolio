@@ -9,7 +9,7 @@ const FirstSection = () => {
   let button = useRef(null);
   useEffect(() => {
     gsap.from(button, {
-      duration: 3,
+      duration: 1,
       opacity: 0,
       delay: 1.75,
       y: 50,

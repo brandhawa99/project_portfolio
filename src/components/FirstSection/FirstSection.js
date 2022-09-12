@@ -11,14 +11,14 @@ const FirstSection = () => {
     gsap.from(button, {
       duration: 3,
       opacity: 0,
-      delay: 4,
+      delay: 2.5,
       y: 50,
       ease: Power3.easeIn,
     });
     gsap.from(name, {
       duration: 1,
       opacity: 0,
-      delay: 2,
+      delay: 1,
       y: -80,
       ease: Power3.easeInOut,
     });

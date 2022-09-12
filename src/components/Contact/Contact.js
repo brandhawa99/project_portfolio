@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div id="contact" className={styles.mainContainer}>
       <HeaderText text="Contact Me" />
-      <p>
+      <p className={styles.text}>
         Again, my name is Baltej Randhawa. Feel free to contact me as I am
         currently looking for work. I am a passionate full-stack developer. I
         love both front-end and back-end. Feel free to email me and check out my

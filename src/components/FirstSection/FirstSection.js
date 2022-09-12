@@ -11,7 +11,7 @@ const FirstSection = () => {
     gsap.from(button, {
       duration: 3,
       opacity: 0,
-      delay: 2.5,
+      delay: 1.75,
       y: 50,
       ease: Power3.easeIn,
     });

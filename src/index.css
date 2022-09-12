@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 
 :root{
-  --primary: #2b2d42 ;
-  --secondary: #8d99ae ;
-  --accent: #edf2f4 ;
+  --primary: #3D5A80 ;
+  --secondary: #98C1D9 ;
+  --accent: #E0FBFC ;
 
   --header-font:'Oleo Script Swash Caps', cursive;
   --header-text: clamp(1.5rem, 1.0909rem + 2.1818vw, 3rem);

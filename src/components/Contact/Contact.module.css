@@ -28,3 +28,8 @@
 .icon:hover{
   transform: translateY(-3px);
 }
+.text{
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+}

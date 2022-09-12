@@ -9,26 +9,26 @@ const FirstSection = () => {
   let button = useRef(null);
   useEffect(() => {
     gsap.from(button, {
-      duration: 2,
+      duration: 3,
       opacity: 0,
-      delay: 0.4,
+      delay: 4,
       y: 50,
       ease: Power3.easeIn,
     });
     gsap.from(name, {
       duration: 1,
       opacity: 0,
-      delay: 0.3,
+      delay: 2,
       y: -80,
-      ease: Power3.easeIn,
+      ease: Power3.easeInOut,
     });
 
     gsap.from(textContainer, {
       duration: 1,
       opacity: 0,
-      delay: 0.2,
+      delay: 0.5,
       y: +50,
-      ease: Power3.easeIn,
+      ease: Power3.easeInOut,
     });
   }, []);
 

@@ -32,7 +32,7 @@
 .textContainer{
   position: relative;
   top: -5px;
-  background-color: var(--primary);
+  background-color: rgba(18, 18, 18, 0.907);
   color:white;
   padding: 20px 40px;
   max-width: 500px;

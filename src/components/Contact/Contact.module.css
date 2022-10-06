@@ -33,3 +33,15 @@
   font-size: 1.3rem;
   color: white;
 }
+
+
+img{
+  width:290px
+
+}
+
+@media (max-width:400px){
+  .iconsContainer{
+    flex-direction: column;
+  }
+}

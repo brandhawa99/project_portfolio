@@ -1,16 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
 .mainContainer{
+  font-family: 'Neuton', serif;
   font-size: clamp(3.5rem, 20vw ,5rem);
-  text-shadow: 
-  -1px 0px 1px rgb(255, 255, 255), -0px 1px 1px rgb(255, 255, 255), 
-  -2px 1px 1px rgb(255, 255, 255), -1px 2px 1px rgb(255, 255, 255),
-  -3px 2px 1px rgb(255, 255, 255), -2px 3px 1px rgb(255, 255, 255),
-  -4px 3px 1px rgb(255, 255, 255), -3px 4px 1px rgb(255, 255, 255),
-  -5px 4px 1px rgb(255, 255, 255), -4px 5px 1px rgb(255, 255, 255),
-  -6px 5px 1px rgb(255, 255, 255), -5px 6px 1px rgb(255, 255, 255),
-  -7px 6px 1px rgb(255, 255, 255);
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  color: white;
   width: 100%;  
   font-size: clamp(2rem, 10.5vw, 6rem);
 }

@@ -10,7 +10,7 @@ const Sidebar = (props) => {
       </div>
       <ul className={styles.list}>
         <li onClick={props.exit}>
-          <a href="#"> Baltej Randhawa </a>
+          <a href="#home"> Baltej Randhawa </a>
         </li>
         <li onClick={props.exit}>
           <a href="#about"> About </a>

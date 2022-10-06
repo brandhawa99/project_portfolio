@@ -1,10 +1,9 @@
 .mainContainer{
   display: flex;
-  border: 1px black solid; 
+  border: 1px white solid; 
   padding: 7px 10px;
   text-decoration: none;
-  color: black;
-  background-color: var(--secondary);
+  color: white;
   transition: transform .4s;
 }
 .mainContainer:hover{

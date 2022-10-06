@@ -3,37 +3,44 @@
   background-color: var(--secondary);
   flex-direction: column;
   align-items: center;
-  padding: 60px 20px;
-  color: var(--primary);
+  padding: 60px 30px;
+  color: white;
   min-height: 100vh;
   gap:20px;
 }
 .skillsContainer{
+  width: 100%;
   border: 5px solid var(--primary);
-  box-shadow: -7px 7px var(--accent);
   padding: 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   border-radius: .5rem;
 }
 .smallHeader{
   flex:1;
 }
+.side{
+  box-shadow: -7px 0px white;
+}
 .iconContainer{
   font-size: 32px;
   display: flex;
   align-items: center;
-  gap: 7px;
+  justify-content: center;
+  gap: 15px;
   padding: 5px 22px ;
   flex-wrap: wrap;
   color: black;
 }
+.iconContainer>img{
+  width: 60px;
+}
 .iconText{
   font-size: 18px;
 }
-.tooltip {
-}
+
 .sectionContainer{
   display: flex;
   flex-direction: column;
@@ -42,8 +49,13 @@
 
 }
 .skillsHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
+  align-items: center;
+  width: 100%;
   padding: 10px 10px;
 }
 .projectContainer{
@@ -56,6 +68,15 @@
 }
 
 .sectionHeader{
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px ;
   font-size: 3rem;
   font-weight: 400;
+}
+
+@media (max-width:600px) {
+  .side{
+    box-shadow: none;
+  }
 }

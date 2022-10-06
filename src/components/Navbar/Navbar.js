@@ -3,6 +3,8 @@ import styles from "./Navbar.module.css";
 import { MenuIcon } from "@heroicons/react/solid";
 import Sidebar from "../Sidebar/Sidebar";
 
+import initials from "../../images/initials2.svg";
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const setMenu = () => {
@@ -12,8 +14,8 @@ const Navbar = () => {
   return (
     <div className={styles.mainContainer}>
       <h1 className={styles.text}>
-        <a className={styles.none} href="#">
-          Baltej Randhawa
+        <a className={styles.none} href="#home">
+          BR
         </a>
       </h1>
       <div className={styles.buttonContainer}>

@@ -15,8 +15,8 @@ const HeaderText = (props) => {
         x: -100,
       },
       {
-        x: 0,
         opacity: 1,
+        x: 0,
         duration: 2,
         scrollTrigger: {
           trigger: el,

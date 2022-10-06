@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: center;
   gap:20px;
-  min-height: 100vh;
-  padding: 0 20px;
+  padding: 0px 20px;
+  height: 100vh;
   opacity: 1;
   background-color: var(--secondary);
   width: 100%;
@@ -48,7 +48,7 @@
   color: white;
   font-weight: 800;
   padding: 10px 7px;
-  box-shadow: -5px 5px var(--accent);
+  border: 2px white solid;
 }
 
 

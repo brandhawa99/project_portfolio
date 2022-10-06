@@ -22,7 +22,6 @@ const FirstSection = () => {
       y: -80,
       ease: Power3.easeInOut,
     });
-
     gsap.from(textContainer, {
       duration: 1,
       opacity: 0,
@@ -33,14 +32,14 @@ const FirstSection = () => {
   }, []);
 
   return (
-    <div className={styles.mainContainer}>
+    <div className={styles.mainContainer} id="home">
       <div ref={(el) => (textContainer = el)} className={styles.textContainer}>
         <div className={styles.centeredText}>
           Hey, welcome to my portfolio. I'm &nbsp;
           <span ref={(el) => (name = el)} className={styles.text}>
             Baltej Randhawa
           </span>
-          &nbsp;, and I am a fullstack developer currently looking for work!
+          &nbsp;, and I am a software developer currently looking for work!
         </div>
       </div>
       <a ref={(el) => (button = el)} className={styles.checkOut} href="#about">

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primary);
+  background-color: transparent;
   color: white;
   padding: 15px 10px;
   text-shadow: -3px 3px black;
@@ -12,7 +12,13 @@
   width: 100%;
 }
 .text{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  transition: font-weight ease-in .1s;
+  transition: transform ease-in .05s;
+}
+.text:hover{
+  font-weight: 800;
+  transform: translate(-1px, 1px);
 }
 .buttonContainer{
   display: flex;
@@ -27,7 +33,7 @@
   border-radius: .25rem;
   cursor: pointer;
   font-weight: 700;
-  transition: transform .25s ease-in;
+  transition: transform .15s ease-in;
   text-decoration: none;
   text-shadow: none;
 }
@@ -41,7 +47,13 @@
   text-decoration: none;
   color: white;
 }
-
+.initials{
+  background-color: transparent;
+  stroke-width: 2px;
+  height: 20px;
+  background-color: white;
+  color: white;
+}
 @media (max-width: 600px) {
   .buttonContainer {
     display: none;

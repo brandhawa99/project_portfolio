@@ -111,7 +111,7 @@ const About = () => {
         </span>
         <span ref={fourRef}>
           I sense that I'm prepared to take the next step and start my journey
-          as a professional full software developer.
+          as a professional software developer.
         </span>
       </div>
     </div>

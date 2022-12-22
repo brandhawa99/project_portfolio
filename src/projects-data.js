@@ -18,7 +18,7 @@ const projects = [
     imgLink:
       "https://user-images.githubusercontent.com/35308786/188825223-84b0cf7e-737a-4198-8f14-17c45bbc4826.png",
     github: "https://github.com/brandhawa99/blog_api",
-    link: "https://agile-mesa-41864.herokuapp.com/",
+    link: "https://blog-api-h9xk.onrender.com/",
   },
   {
     id: 3,

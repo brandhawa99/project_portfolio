@@ -121,6 +121,20 @@ const Portfolio = () => {
                 <Tip
                   link={
                     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                  } />
+                <Tip
+                  link={
+                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+                  }
+                />
+                <Tip
+                  link={
+                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                  }
+                />
+                <Tip
+                  link={
+                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg"
                   }
                 />
               </div>

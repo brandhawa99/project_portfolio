@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Tip.module.css";
-import Tippy from "@tippyjs/react";
 
 const Tip = (props) => {
   const { link } = props;
@@ -8,6 +7,9 @@ const Tip = (props) => {
   function getName() {
     let arr = link.split("/");
     name = arr[7];
+    if (name === "amazonwebservices") {
+      name = "AWS"
+    }
   }
   getName();
   return (

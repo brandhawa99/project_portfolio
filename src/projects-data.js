@@ -1,5 +1,14 @@
 const projects = [
   {
+    id: 6,
+    title: "Social Media App",
+    blog: "Introducing the newest social media app built with cutting-edge technology! Our app features a sleek and intuitive ReactJS front-end, providing users with a seamless and engaging experience. On the back-end, we've utilized the power of ExpressJS to handle all the heavy lifting and ensure lightning-fast response times. To top it all off, we're hosted on both AWS and Google Cloud Services, ensuring maximum scalability and reliability. Whether you're looking to connect with friends, share your passions, or discover new communities, our social media app has everything you need to stay connected and engaged in the world around you. So why wait? Signup today and start exploring! ",
+    tools: "Built with Reactjs, JavaScript, Node, ExpressJS AWS, Google Cloud Platform, Docker",
+    imgLink: "https://user-images.githubusercontent.com/35308786/227627654-e28ac04e-2622-4a93-88f0-d01cc98e8cae.png",
+    github: "https://github.com/social-media-app-project/social-media-app",
+    link: "https://main.d1l2zslx6rge0v.amplifyapp.com/login",
+  },
+  {
     id: 1,
     title: "Shopping Cart App",
     blog: "This app fetches data from a fake store REST API. I display all the products on the store page where you can see the price and name. Once you click on a product you can get a detailed view of the item with a description. You can add products to a cart which updates its count automatically. Once you click on the cart you can see everything that was added with a count and price.",
@@ -48,7 +57,7 @@ const projects = [
       "https://user-images.githubusercontent.com/35308786/189496717-2114018b-1318-4691-bfe7-a1fa68338fe6.png",
     github: "https://github.com/brandhawa99/library",
     link: "https://brandhawa99.github.io/library/",
-  },
+  }
 ];
 
 export default projects;

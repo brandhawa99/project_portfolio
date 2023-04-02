@@ -5,6 +5,7 @@ import Project from "../Project/Project";
 import projects from "../../projects-data";
 import Rule from "../Rule/Rule";
 import Tip from "../Tip/Tip";
+import { v4 } from 'uuid'
 
 const Portfolio = () => {
   return (
@@ -148,7 +149,7 @@ const Portfolio = () => {
             let { id, title, blog, tools, link, github, imgLink } = project;
             return (
               <Project
-                key={id}
+                key={v4()}
                 id={id}
                 title={title}
                 blog={blog}

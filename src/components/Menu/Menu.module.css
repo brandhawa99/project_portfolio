@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 .navbar {
+  background-color: hsl(0, 0%, 0%);
   display: flex;
   align-items: center;
-  margin: 0px 20px;
+  justify-content: center;
   height: 100px;
-  max-width: 100%;
+  max-width: 1200px;
+  width: 100%;
   overflow-x: auto;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .navbar__list {
+  background-color: hsla(0, 0%, 96%, 0);
   display: flex;
   gap: 10px;
 }
@@ -28,6 +34,7 @@
   border-radius: .5rem;
   color: rgb(206, 206, 206);
   transition: .25s;
+  background-color: black;
 }
 
 .navbar__item a:hover {
@@ -54,4 +61,11 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    justify-content: flex-start;
+  }
+
 }

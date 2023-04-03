@@ -10,7 +10,7 @@ const Menu = () => {
         <li className={styles.navbar__item}><a href="#about">About</a></li>
         <li className={styles.navbar__item}><a href="#tools">Tools</a></li>
         <li className={styles.navbar__item}><a href="#projects">Projects</a></li>
-        <li className={styles.navbar__item}><a href="#contacts">Contact</a></li>
+        <li className={styles.navbar__item}><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   );

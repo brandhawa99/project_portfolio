@@ -1,12 +1,10 @@
-.WholeContainer{
+.App {
   display: flex;
+  padding: 0px 20px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: var(--primary);
-  width: 100%;
-}
-.App{
-  max-width: 1600px;
-  flex: 1;
+  justify-content: center;
+  max-width: 1200px;
+  background-color: black;
+  color: white;
 }

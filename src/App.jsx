@@ -1,21 +1,21 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import FirstSection from './components/FirstSection/FirstSection';
+import Menu from './components/Menu/Menu'
+import Intro from './components/Intro/Intro'
 import About from './components/About/About'
-import Portfolio from './components/Portfolio/Portfolio';
+import Tools from './components/Tools/Tools'
+import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 function App() {
 
   return (
-    <div className='WholeContainer'>
-      <div className='App'>
-        <Navbar />
-        <FirstSection />
-        <About />
-        <Portfolio />
-        <Contact />
-      </div>
+    <div className='App'>
+      <Menu />
+      <Intro />
+      <About />
+      <Tools />
+      <Projects />
+      <Contact />
     </div>
   );
 };

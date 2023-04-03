@@ -1,9 +1,0 @@
-.mainContainer{
-  display: flex; 
-  width: 100%;
-  align-items: center;
-}
-hr{
-  border: 1px white solid;
-  flex: 1;
-}

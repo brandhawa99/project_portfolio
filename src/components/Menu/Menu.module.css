@@ -2,6 +2,7 @@
 
 .navbar {
   background-color: hsl(0, 0%, 0%);
+  border: 2px red dashed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,12 +13,15 @@
   position: sticky;
   top: 0;
   z-index: 10;
+  white-space: nowrap;
 }
 
 .navbar__list {
   background-color: hsla(0, 0%, 96%, 0);
   display: flex;
+  flex: none;
   gap: 10px;
+  border: 2px red dashed;
 }
 
 .navbar__item {
@@ -63,9 +67,13 @@
   background: #555;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .navbar {
+    width: 600px;
+    overflow-x: scroll;
     justify-content: flex-start;
+    align-items: center;
+    width: auto;
   }
 
 }

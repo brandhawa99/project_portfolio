@@ -68,7 +68,6 @@
 
 @media (max-width:600px) {
   .image {
-    max-width: 325px;
     box-shadow: none;
   }
 

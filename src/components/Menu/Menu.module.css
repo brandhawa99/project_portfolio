@@ -1,43 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 .navbar {
-  background-color: hsl(0, 0%, 0%);
-  border: 2px red dashed;
-  display: flex;
-  flex: none;
-  align-items: center;
-  justify-content: center;
+  font-family: "Raleway", serif;
+  display: grid;
+  place-items: center;
   height: 100px;
-  width: 100%;
-  max-width: 1200px;
   overflow-x: auto;
-  position: sticky;
-  top: 0;
-  z-index: 10;
 }
 
 .navbar__list {
-  background-color: hsla(0, 0%, 96%, 0);
   display: flex;
   flex: none;
-  gap: 10px;
+  gap: 20px;
 }
 
-.navbar__item {
-  list-style: none;
-}
+.navbar__item {}
 
 
 .navbar__item a {
-  font-size: 1.4rem;
-  font-family: "Raleway", serif;
-  color: white;
+  flex: none;
   text-decoration: none;
+  color: rgb(196, 196, 196);
   padding: 20px;
   border-radius: .5rem;
-  color: rgb(206, 206, 206);
-  transition: .25s;
-  background-color: black;
 }
 
 .navbar__item a:hover {
@@ -64,15 +49,4 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    width: 600px;
-    overflow-x: scroll;
-    justify-content: flex-start;
-    align-items: center;
-    width: auto;
-  }
-
 }

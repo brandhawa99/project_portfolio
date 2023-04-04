@@ -46,6 +46,7 @@
   border-radius: .35rem;
 }
 
+
 .links {
   display: flex;
   width: 100%;
@@ -73,5 +74,10 @@
 
   .headContainer {
     padding: 0;
+  }
+
+  .textContainer {
+    padding: 20px 20px;
+
   }
 }

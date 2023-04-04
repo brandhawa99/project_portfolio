@@ -11,13 +11,13 @@ function App() {
   return (
     <>
       <Menu />
-      {/* <div className='App'>
+      <div className='App'>
         <Intro />
         <About />
         <Tools />
         <Projects />
         <Contact />
-      </div> */}
+      </div>
     </>
   );
 };

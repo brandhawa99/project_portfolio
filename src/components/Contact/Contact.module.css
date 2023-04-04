@@ -48,13 +48,12 @@
 }
 
 img {
-  width: 400px;
   border-radius: 20px;
 }
 
-@media (max-width: 600) {
+@media screen and (max-width: 600px) {
   img {
-    width: 50%;
+    width: 300px;
   }
 
 }

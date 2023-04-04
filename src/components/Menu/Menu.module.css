@@ -6,6 +6,10 @@
   place-items: center;
   height: 100px;
   overflow-x: auto;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 10;
 }
 
 .navbar__list {

@@ -1,27 +1,27 @@
 import React, { useEffect, useRef } from "react";
-import Link from "../Link/Link";
+import Link from "../Link/Link"
 import styles from "./Project.module.css";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// gsap.registerPlugin(ScrollTrigger);
 const Project = (props) => {
   let { id, title, blog, tools, link, github, imgLink } = props;
   const textRef = useRef(null);
-  useEffect(() => {
-    const el = textRef.current;
-    gsap.fromTo(
-      el,
-      { y: -100 },
-      {
-        y: 0,
-        scrollTrigger: {
-          trigger: el,
-          start: "top center",
-          scrub: -1,
-        },
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   const el = textRef.current;
+  //   gsap.fromTo(
+  //     el,
+  //     { y: -100 },
+  //     {
+  //       y: 0,
+  //       scrollTrigger: {
+  //         trigger: el,
+  //         start: "top center",
+  //         scrub: -1,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
   return (
     <div className={styles.mainContainer}>

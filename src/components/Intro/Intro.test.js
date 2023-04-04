@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FirstSection from './FirstSection';
+import Intro from './Intro';
 
 it('It should mount', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<FirstSection />, div);
+  ReactDOM.render(<Intro />, div);
   ReactDOM.unmountComponentAtNode(div);
 });

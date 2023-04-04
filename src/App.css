@@ -1,12 +1,23 @@
-.WholeContainer{
+.App {
+  display: flex;
+  padding: 0px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.mainContainer {
+  font-family: 'Rubik', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary);
+  align-items: flex-start;
+  max-width: 1200px;
   width: 100%;
-}
-.App{
-  max-width: 1600px;
-  flex: 1;
+  z-index: 2;
+  padding: 130px 0px;
+  gap: 30px;
 }

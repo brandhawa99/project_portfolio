@@ -1,0 +1,14 @@
+.mainContainer {
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rubik', sans-serif;
+  max-width: 1200px;
+  gap: 30px;
+}
+
+.items {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.mainContainer {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px white solid;
+  border-radius: 2rem 2rem;
+  padding: 10px 20px;
+  background-color: rgb(34, 34, 34);
+  transition: .3s;
+}
+
+.mainContainer>div {
+  color: rgb(226, 226, 226);
+  letter-spacing: 1px;
+}
+
+.mainContainer>div:hover {
+  color: white;
+}
+
+.mainContainer:hover {
+  background-color: black;
+}
+
+.mainContainer>img {
+  width: 30px;
+  border-radius: 0%;
+}

@@ -59,7 +59,7 @@ const backEnd = [
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
   },
   {
-    title: "Firstbase",
+    title: "Firebase",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
   },
 ]

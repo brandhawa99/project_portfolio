@@ -52,6 +52,13 @@ img {
   border-radius: 20px;
 }
 
+@media (max-width: 600) {
+  img {
+    width: 50%;
+  }
+
+}
+
 .iconsContainer {
   display: flex;
   gap: 20px;

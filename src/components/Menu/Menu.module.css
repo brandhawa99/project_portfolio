@@ -4,6 +4,7 @@
   background-color: hsl(0, 0%, 0%);
   border: 2px red dashed;
   display: flex;
+  flex: none;
   align-items: center;
   justify-content: center;
   height: 100px;
@@ -13,7 +14,6 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  white-space: nowrap;
 }
 
 .navbar__list {
@@ -21,7 +21,6 @@
   display: flex;
   flex: none;
   gap: 10px;
-  border: 2px red dashed;
 }
 
 .navbar__item {

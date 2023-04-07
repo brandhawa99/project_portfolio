@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Intro.module.css';
+import bg from '../../images/tim-navis-Flxl7OUuO1M-unsplash.jpg'
 
 const Intro = () => {
 
@@ -11,6 +12,9 @@ const Intro = () => {
         I am software developer from Vancouver, BC. I have almost 2 years of experience building full-stack applications. I am currently looking for work, so thank you for checkout out my portfolio.
       </p>
       <a className={styles.button} href="#about">Learn About Me</a>
+      <div className={styles.crop}>
+        <img className={styles.img} src={bg} alt='bg'></img>
+      </div>
     </div>
   );
 };

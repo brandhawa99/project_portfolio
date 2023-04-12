@@ -26,19 +26,6 @@
 .img {
   display: flex;
   width: 100%;
-  border-radius: 0%;
-  object-position: 0px 70px;
-}
-
-
-
-.crop {
-  border-radius: 3.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 150px;
 }
 
 .button {

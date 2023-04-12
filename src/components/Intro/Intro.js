@@ -12,9 +12,7 @@ const Intro = () => {
         I am software developer from Vancouver, BC. I have almost 2 years of experience building full-stack applications. I am currently looking for work, so thank you for checkout out my portfolio.
       </p>
       <a className={styles.button} href="#about">Learn About Me</a>
-      <div className={styles.crop}>
-        <img className={styles.img} src={bg} alt='bg'></img>
-      </div>
+      <img className={styles.img} src={bg} alt='bg'></img>
     </div>
   );
 };

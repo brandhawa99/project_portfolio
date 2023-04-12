@@ -12,7 +12,7 @@ function App() {
     fetch('https://geolocation-db.com/json/67273a00-5c4b-11ed-9204-d161c2da74ce/207.6.215.36')
       .then(res => res.json())
       .then(data =>
-        fetch(`http://localhost:3002/sendValues/${"City:" + data.city + " State:" + data.state + " Country:" + data.country_name}`, {
+        fetch(`https://ip-tracker-mq0n.onrender.com/sendValues/${"City:" + data.city + " State:" + data.state + " Country:" + data.country_name}`, {
           method: "POST",
           mode: "no-cors",
           headers: {

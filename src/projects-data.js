@@ -57,6 +57,15 @@ const projects = [
       "https://user-images.githubusercontent.com/35308786/189496717-2114018b-1318-4691-bfe7-a1fa68338fe6.png",
     github: "https://github.com/brandhawa99/library",
     link: "https://brandhawa99.github.io/library/",
+  },
+  {
+    id: 6,
+    title: "WedSpeak",
+    blog: "This is a react-native/expo app designed to make wedding/events more memorable. It allows friends and family to leave personal voice notes for the wedding party. All the voice notes are saved in a locked folder so only the people who are meant to heart the messages are able to.",
+    tools: "Built with Typescript, React-native, Expo",
+    imgLink: "https://github.com/brandhawa99/react_native_test/assets/35308786/b1db2bea-bdea-4575-8525-70443b9a0011",
+    github: "https://github.com/brandhawa99/react_native_test/tree/main/wedspeak",
+    link: ""
   }
 ];
 

@@ -65,7 +65,7 @@ const projects = [
     tools: "Built with Typescript, React-native, Expo",
     imgLink: "https://github.com/brandhawa99/react_native_test/assets/35308786/b1db2bea-bdea-4575-8525-70443b9a0011",
     github: "https://github.com/brandhawa99/react_native_test/tree/main/wedspeak",
-    link: ""
+    link: "https://github.com/brandhawa99/react_native_test/tree/main/wedspeak"
   }
 ];
 
